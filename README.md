@@ -18,7 +18,7 @@ _JavaScript app JS Node runtime environment to match individuals with specific a
 * _$ gulp build_
 * _$ gulp serve_
 
-_You will need to get your own unique API Key from https://developer.betterdoctor.com/ and create a .env file within your cloned app folder.  The formatting should look as such in your .env for the key to work in_
+_You will need to get your own unique API Key from https://developer.betterdoctor.com/ and create a .env file within your cloned app folder.  The formatting should look as such in your .env for the key to work correctly_
 * _exports.apiKey = "YOUR_UNIQUE_KEY_HERE__
 
 ## Known Bugs
