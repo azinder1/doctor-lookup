@@ -7,11 +7,11 @@ function Patient(firstName, lastName, medicalIssue) {
 
 }
 
-Patient.prototype.getDoctors = function(firstName, lastName, medicalIssue) {
-  console.log("hello again");
+Patient.prototype.getDoctors = function(displayFunction) {
+  medicalIssue = this.medicalIssue
   $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ medicalIssue+'&location=45.5231%2C-122.6765%2C%205&user_location=45.5231%2C-122.6765&skip=0&limit=20&user_key=' + apiKey)
    .then(function(result) {
-      console.log(result);
+     displayFunction(result);
     })
    .fail(function(error){
       console.log("fail");
