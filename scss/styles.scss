@@ -34,5 +34,18 @@
 
 #results {
   display: none;
+  height: 510px;
   border-left: 1px solid black;
+  overflow: scroll;
+}
+
+.header h2{
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+	   -webkit-border-image:
+        -webkit-linear-gradient(left, rgba(245,241,222, 0.50) 1%,rgba(0,0,0,0.8) 50%,rgba(245,241,222, 0.50) 100%) 0 0 100% 0/0 0 3px 0;
+
 }

@@ -14,6 +14,8 @@ Patient.prototype.getDoctors = function(displayFunction) {
      displayFunction(result);
     })
    .fail(function(error){
+     console.log("hello");
+      $('#results').show();
       $('#doctors').append("Sorry we couldn't find a doctor under your search criteria, please try again");
     });
 };
