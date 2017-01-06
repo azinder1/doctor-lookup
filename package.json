@@ -24,5 +24,13 @@
   "dependencies": {
     "browser-sync": "^2.18.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azinder1/doctor-lookup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azinder1/doctor-lookup/issues"
+  },
+  "homepage": "https://github.com/azinder1/doctor-lookup#readme",
   "description": ""
 }
