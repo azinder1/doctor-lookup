@@ -13,26 +13,21 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-2">
-
-        </div>
-        <form class="col-sm-10" id="patient-form">
-            <ul>
-                <li><input  placeholder="First Name"id="first_name" required></li>
-                <li><input  placeholder="Last Name"id="last_name" required></li>
-                <li><input  placeholder="Medical Issue"id="medical_issue" required></li>
+        <form class="col-sm-2" id="patient-form">
+            <ul id="nav-ul">
+                <li ><input placeholder="First Name"id="first_name" required></li>
+                <li><input placeholder="Last Name"id="last_name" required></li>
+                <li><input placeholder="Medical Issue"id="medical_issue" required></li><br>
                 <li><button type="submit">Submit</buttom></li>
             </ul>
           </form>
-        </div>
-        <div class="row">
-            <h2>These are the best doctors for you in the area:</h2>
-              <ul>
-                <div class="col-sm-8" id="doctors">
-
-              </ul>
+          <div class="col-sm-8 col-sm-offset-1" id="results">
+            <h3><span class="patient"></span>, here are some doctors for you</h3>
+            <ul>
+              <div id="doctors">
+              </div>
+            </ul>
           </div>
-
         </div>
       </div>
     </div>
