@@ -1,0 +1,22 @@
+{
+  "name": "doctor-lookup",
+  "description": "",
+  "main": "gumpfile.js",
+  "authors": [
+    "Adam Zinder <adam.zinder@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/azinder1/trackSuggester",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "materialize": "^0.97.8"
+  }
+}
